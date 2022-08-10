@@ -3,7 +3,7 @@ let name = prompt("What is your name?", "");
 
 let gender  = prompt("Please enter your gender.", "");
 
-let age = prompt('How old are you?', "");
+let age = prompt('How old are you?(male or female)', "");
 if (age == 0) {
     alert(`There is no such thing as zero age! Please enter another value.`);
     age =prompt('How old are you?', "");
